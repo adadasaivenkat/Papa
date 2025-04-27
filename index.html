@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Papa!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-card">
+            <div class="special-front">
+                <div class="main-image-container">
+                    <img src="IMG-20250421-WA0032.jpg" alt="Special Memory" class="main-image">
+                    <div class="heart-overlay"></div>
+                </div>
+                <div class="text-content">
+                    <h1 class="title">Happy Birthday Papa!<span class="romantic-submessage">❤️</span></h1>
+                    
+                </div>
+                <div class="floating-hearts"></div>
+            </div>
+            
+            <div class="unlock-section">
+                <p class="subtitle">Enter the code and see your surprise!</p>
+                <div class="code-input-container">
+                    <input type="password" id="codeInput" placeholder="Enter the secret code">
+                    <button onclick="checkCode()">Unlock</button>
+                </div>
+                <p id="error-message" class="error-message hidden">Neek enduku bey ne pani chusuko!!</p>
+            </div>
+
+            <div id="slideshow" class="hidden">
+                <div class="romantic-message-container">
+                    <p class="romantic-message">❤️ You are my first love after my mother, no matter what, this love will be forever. I love you! ❤️</p>
+                    <p class="romantic-submessage">You are mine, just mine ❤️</p>
+                </div>
+                <div class="slideshow-container">
+                    <div class="slide active">
+                        <img src="IMG-20250415-WA0002.jpg" alt="Our First Memory">
+                        <div class="slide-text">Our First Memory Together ❤️</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250427-WA0023.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Beautiful Moments</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250415-WA0002.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Special Times</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250415-WA0010.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Precious Memories</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250427-WA0022.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Love & Happiness</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250415-WA0011.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Forever Together</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250427-WA0019.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Sweet Moments</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250421-WA0032.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Beautiful Journey</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250415-WA0004.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Cherished Times</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20250427-WA0020.jpg" alt="Birthday Memory">
+                        <div class="slide-text">Endless Love</div>
+                    </div>
+                </div>
+                <div class="slideshow-controls">
+                    <button class="prev-btn" onclick="prevSlide()">❮</button>
+                    <button class="next-btn" onclick="nextSlide()">❯</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
